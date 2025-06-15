@@ -1,4 +1,5 @@
-
-   def greet_user(name):
-       """mata meka karana ba."""
-       return f"Welcome, {name}! This is the main branch."
+def greet_user(name):
+    """A dummy function to greet a user with input validation."""
+    if not name or name.strip() == "":
+        return "Error: Name cannot be empty or None."
+    return f"Hello, {name.strip()}! Welcome to the app."
