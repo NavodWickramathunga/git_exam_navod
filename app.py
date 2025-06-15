@@ -1,8 +1,8 @@
-- This creates an `app.py` file with a simple `greet_user` function that takes a `name` parameter and returns a greeting string.
+- This replaces the existing `greet_user` function with one that returns a different message.
 - **Alternatively, using a text editor**:
-1. Open a text editor (e.g., Notepad, VS Code, or nano).
-2. Create a new file with the following content:
+1. Open `app.py` in a text editor (e.g., VS Code, Notepad, or nano).
+2. Replace the content with:
    ```python
    def greet_user(name):
-       """A dummy function to greet a user."""
-       return f"Hello, {name}! Welcome to the app."
+       """A different dummy function to greet a user."""
+       return f"Welcome, {name}! This is the main branch."
